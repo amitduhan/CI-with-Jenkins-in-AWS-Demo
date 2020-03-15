@@ -1,7 +1,7 @@
 pipeline {
     agent any
          environment {
-                 PROJECT_ID = 'My First Project'
+                 PROJECT_ID = 'seismic-box-261316'
                  CLUSTER_NAME = 'mykube-demo'
                  LOCATION = 'europe-west3-b'
                  CREDENTIALS_ID = 'kuber'
