@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'My First Project'
         CLUSTER_NAME = 'mykube-demo'
         LOCATION = 'europe-west3-b'
-        CREDENTIALS_ID = 'kubernetes'
+        CREDENTIALS_ID = 'Kubernetes'
     }
     stages {
         stage("Checkout code") {
