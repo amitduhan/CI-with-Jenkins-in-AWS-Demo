@@ -1,10 +1,10 @@
 pipeline {
     agent any
-    environment {
-        PROJECT_ID = 'My First Project'
-        CLUSTER_NAME = 'mykube-demo'
-        LOCATION = 'europe-west3-b'
-        CREDENTIALS_ID = 'kubernetes'
+         environment {
+                 PROJECT_ID = 'My First Project'
+                 CLUSTER_NAME = 'mykube-demo'
+                 LOCATION = 'europe-west3-b'
+                 CREDENTIALS_ID = 'kubernetes'
     }
     stages {	
 	   stage('Scm Checkout') {            
